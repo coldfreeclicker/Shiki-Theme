@@ -1220,6 +1220,7 @@
         line-height: 38px !important;
         margin-bottom: 1px;
         margin-top: 12px;
+        border-radius: 10px;
     }
     .b-stats_bar a.title,
     .b-stats_bar .title {
@@ -2590,4 +2591,5 @@
         background: linear-gradient(135deg, transparent 280px, #483d1c 0);
     }
 }
+
 
