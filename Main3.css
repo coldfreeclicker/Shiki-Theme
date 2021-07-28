@@ -3118,4 +3118,6 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
     color: #98b6da;
 }
 
-
+.b-user_rate-history .status-counter {
+    color: #b7b7b7;
+}
