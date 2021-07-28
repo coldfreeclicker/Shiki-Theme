@@ -3135,3 +3135,7 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
     margin-top: -1px;
     padding-bottom: 13px;
 }    
+
+.b-user_rate-history .score-time .stars-container .background {
+    color: #888;
+}
