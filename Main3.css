@@ -3122,6 +3122,16 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
     color: #b7b7b7;
 }
 
-
+.b-user_rate-history .progress {
+    height: 10px;
+    background: #aaa;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
     
-    
+.b-user_rate-history .progress .completed {
+    background: #4c86c8;
+    border-radius: 10px;
+    margin-top: -1px;
+    padding-bottom: 13px;
+}    
