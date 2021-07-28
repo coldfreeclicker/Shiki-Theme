@@ -1,0 +1,173 @@
+
+.l-footer:after {
+  content: "*Karmotrine Dream*";
+}
+
+@media screen and (min-width: 1px) {
+  .correct-mob-version {
+    color: normal;
+  }
+}
+
+.shikista {
+  color: white;
+}
+
+/* @media screen and (min-width: 1px) {
+  html:root {
+   --white-color: 219, 219, 219;
+    --light-color: 184, 184, 184;
+    --dark-color: 155, 155, 155;
+    --bright-color: 217, 217, 217;
+    --dull-color: 116, 116, 116;
+    --input-color: 120, 120, 120;
+    --hover-bottoms-1: 43, 43, 43;
+    --buttoms-color: 74, 74, 74;
+    --hover-buttoms-2: 140, 140, 140;
+    --very-high-rating: 192, 53, 53;
+    --high-rating: 126, 48, 48;
+    --average-rating: 135, 74, 74;
+    --small-rating: 138, 92, 92;
+    --time-filled: 92, 92, 92;
+    --time-empty: 43, 43, 43;
+    --anime-inprocess: 0, 109, 163;
+    --anime-complete: 14, 70, 119;
+    --manga-inprocess: 189, 15, 86;
+    --manga-complete: 153, 0, 62;
+    --hover-color: 51, 150, 255;
+    --shadows-color: 150, 150, 150;
+    --block-color: 69, 69, 69;
+    --menu-back: 21, 21, 21;
+    --nick-cover: 69, 69, 69;
+    --popup-color: 39, 39, 39;
+    --hundred: 1;
+  }
+}*/
+@media screen and (min-width: 1px) {
+  html:root {
+    --white-color: 219, 219, 219;
+    --light-color: 184, 184, 184;
+    --dark-color: 155, 155, 155;
+    --bright-color: 217, 217, 217;
+    --dull-color: 116, 116, 116;
+    --input-color: 120, 120, 120;
+    --hover-bottoms-1: 43, 43, 43;
+    --buttoms-color: 74, 74, 74;
+    --hover-buttoms-2: 140, 140, 140;
+    --very-high-rating: 53, 117, 156;
+    --high-rating: 75, 131, 149;
+    --average-rating: 73, 113, 126;
+    --small-rating: 62, 92, 96;
+    --time-filled: 92, 92, 92;
+    --time-empty: 43, 43, 43;
+    --anime-inprocess: 69, 134, 146;
+    --anime-complete: 41, 91, 107;
+    --manga-inprocess: 162, 73, 134;
+    --manga-complete: 145, 48, 139;
+    --hover-color: 36, 121, 132;
+    --shadows-color: 150, 150, 150;
+    --block-color: 69, 69, 69;
+    --menu-back: 21, 21, 21;
+    --nick-cover: 50, 91, 98;
+    --popup-color: 39, 39, 39;
+    --hundred: 1;
+  }
+}
+
+/* Custom fixes
+.p-profiles .profile-head .c-brief .avatar img {
+    animation: fly 3s ease-in-out infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(12px);
+    }
+}*/
+/*Блок с контентом*/
+.l-page {
+/*background: #000;*/
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+border-radius: 5px;
+/*opacity: 0.8; /*полупрозрачность*/ */
+}
+/*Изменение фоновой картинки.*/
+ /*background: fixed url(https://lh3.googleusercontent.com/pw/ACtC-3dnfF4pzr3HZ33ru0blvn2eDx-wwi7Q1znsC-PLHgY_rabfkO3oOeOzRP8lfxRQGM4A9Wrp0HETZo5Fm8W6zDh50NFTAGU_QG2Bc9nADkRecoZ0DQmd1awGSpaRPcYMYgLiYwAmRAkK8jJLS7swH-jy=w1280-h720-no?authuser=0) no-repeat #000 !important;*/
+ /*background:  fixed url(https://lh3.googleusercontent.com/pw/ACtC-3fzE7DyMPRRLylRyWVsu_qcZu5rJKiM_Mq2NdGwUMZ0pdZZSmffgzbpDan6urfsuiOJSFjQa97j85S4YcmRzypQau0tOkUB9f2CDXfqWIEjHSd7zDDFORMd0C2SGBoCjU21B_oivlkpnqJq8Lo-AQ26=w1100-h582-no?authuser=0) no-repeat #000 ;*/
+body:after {
+  background-image: url(https://raw.githubusercontent.com/coldfreeclicker/Shiki-Theme/main/Background/FinalLowResUpscale.gif);
+    }
+
+/* shadow gradient Fixes */
+#profiles_show .achievements .header {
+    position: relative;
+    justify-content: center;
+    margin: 4px 4px;
+    padding: 6px 10px 5px;
+    line-height: 1;
+    box-shadow: 0 0.1px 1px 1px rgba(var(--block-color),1);
+    border-radius: 13px;
+}
+/* round corners for comments */
+.b-image img {
+    -webkit-filter: brightness(0.9);
+    transition: 0.3s ease !important;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  	border-radius: 13px;
+}
+
+/* Ебучие зеленые галочки теперь стали ебучеми синими */
+.p-profiles-show .lifetime .times .time.checked:before {
+    color: #2ebdcc;
+}
+
+/* Progress bar color fix */
+.b-stats_bar.lifetime .bar .first {
+    background-color: #3a8c94;
+
+/*Точки циан*/ 
+}
+.p-profiles-show .lifetime .cuts .cut:after {
+    color: #a0ffff;
+}
+
+.b-spoiler_block>div {
+    background-color: #444444;
+    border-left: #444444;
+  	border-radius: 5px
+}
+
+.b-spoiler_block>span {
+    background-color: #444444;
+  	border-radius: 5px;
+   	margin: 4px 4px;
+}
+
+@media screen and (max-width: 767px)
+.p-profiles .profile-head .c-info .c-additionals div a[href$="/comments"] {
+
+    height: 50px;
+
+}
+
+.p-dashboards-show .v2 .my-list {
+    background: #313131d1;
+    border-radius: 10px;
+    border: 1px solid rgb(44 44 44 / 45%);
+    padding: 5px 10px 8px;
+}
+
+.p-dashboards-show .v2 .my-list .label .misc-links a {
+    color: #b3b3b3;
+}
+
+.b-user_rate-history .progress .completed {
+    background: #4c86c8;
+}
+
+.b-user_rate-history .score-time .stars-container .background {
+    color: #888;
+}
