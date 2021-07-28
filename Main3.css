@@ -3109,3 +3109,9 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
 .b-spoiler_inline:not(.is-opened) {
     background-color: #444444
 }
+
+.p-dashboards-show .v2 .my-list {
+    background: #444444;
+    border-radius: 10px;
+    padding: 5px 10px 8px;
+}
