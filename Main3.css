@@ -3115,3 +3115,7 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
     border-radius: 10px;
     padding: 5px 10px 8px;
 }
+
+.b-user_rate-history img {
+    border-radius: 5px;
+}
