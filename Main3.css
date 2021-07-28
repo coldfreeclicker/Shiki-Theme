@@ -3113,3 +3113,7 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
 .b-user_rate-history img {
     border-radius: 5px;
 }
+
+.p-dashboards-show .v2 .my-list .label span {
+    color: #98b6da;
+}
