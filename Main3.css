@@ -3136,4 +3136,17 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
     padding-bottom: 13px;
 }    
 
+.p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
+    background-color: #296271;
+    border: 1px solid #296271;
+}
 
+.p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
+    background-color: #436131;
+    border: 1px solid #436131;
+}
+
+.p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag {
+    background-color: #4c2f2b;
+    border: 1px solid #4c2f2b;
+}
