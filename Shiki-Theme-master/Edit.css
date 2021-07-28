@@ -1,0 +1,12 @@
+.p-profiles .profile-head .c-brief .avatar img {
+    animation: fly 3s ease-in-out infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(12px);
+    }
+}
