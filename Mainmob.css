@@ -4,7 +4,7 @@
     .menu-dropdown *:after,
     .global-search input *,
     .global-search input,
-    .global-search inpot *:after,
+    .global-search input *:after,
     .global-search input *:before {
         transition: 0.2s all;
     }
@@ -1232,7 +1232,7 @@
         text-align: left;
         z-index: 2;
         line-height: 38px;
-        font-size: 14px;
+        font-size: 10px;
         opacity: 0.2;
     }
     .b-stats_bar .bar {
