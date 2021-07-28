@@ -171,3 +171,7 @@ body:after {
 .b-user_rate-history .score-time .stars-container .background {
     color: #888;
 }
+
+.b-user_rate-history .score-time time {
+    padding-bottom: 2px;
+}
