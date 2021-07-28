@@ -3121,3 +3121,9 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
 .b-user_rate-history .status-counter {
     color: #b7b7b7;
 }
+
+.b-user_rate-history .progress .completed {
+    background: #4c86c8;
+}
+    
+    
