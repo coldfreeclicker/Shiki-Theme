@@ -175,3 +175,10 @@ body:after {
 .b-user_rate-history .score-time time {
     padding-bottom: 2px;
 }
+
+
+.p-dashboards-show .v2 .create-topic {
+    margin-right: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
