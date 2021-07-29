@@ -1357,7 +1357,7 @@ textarea {
 }
 
 .p-dashboards-show .v2 .db-updates {
-    overflow: visible;
+    overflow: hidden;
 }
 
 .b-dialog>.inner div.body {
