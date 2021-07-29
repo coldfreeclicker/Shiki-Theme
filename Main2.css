@@ -512,7 +512,7 @@ body#pages_bb_codes a.misc[href*='/polls/new?']:after {
 .b-hot_topics-v2 {
     background-color: rgba(var(--block-color), 0.6);
     border-radius: 8px 8px 0 0;
-    margin-top: -10px;
+    margin: -10px -15px 0px -15px;
 }
 
 .b-hot_topics-v2 .topic.subject {
