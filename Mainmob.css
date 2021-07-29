@@ -2592,3 +2592,7 @@
 }
 
 
+@media screen and (max-width: 767px)
+.headline .misc-links, .midheadline .misc-links, .subheadline .misc-links {
+    margin-left: 18px;
+}
