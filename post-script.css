@@ -189,3 +189,13 @@ body:after {
     border-radius: 15px;
 }
 
+.b-anime_status_tag.article[data-text]:before {
+    content: attr(data-text);
+    color: #f9cfe1;
+    background: #395061;
+    padding: 2.5px 9px;
+    font-size: 12px !important;
+    line-height: 16.5px !important;
+    border: none;
+    border-radius: 8px;
+}
