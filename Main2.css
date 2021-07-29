@@ -2932,7 +2932,7 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
 .b-link_button.dark-2 {
     background-color: rgba(var(--buttoms-color), 0.7);
     color: rgba(var(--white-color), var(--hundred));
-    border-radius: 6px;
+    border-radius: 15px;
 }
 
 .b-link_button.dark-2:hover {
