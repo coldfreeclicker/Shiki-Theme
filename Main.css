@@ -2315,7 +2315,7 @@ p-userlist_comparer .comparer table a {
 }
 
 .b-quote .quoteable:before {
-    color: rgba(var(--bright-color), var(--hundred));
+    color: white;
 }
 
 .b-bb_codes-examples .example span {
@@ -3091,4 +3091,12 @@ body#dashboards_show .l-page {
     .p-achievements-index .c-franchises .b-badge[data-progress='100']:after {
         background: linear-gradient(135deg, transparent 280px, #483d1c 0);
     }
+}
+
+
+.b-quote-v2
+    background-color: #4c4c4c;
+    border-left: 4px solid #896fff;
+    padding-left: 14px;
+    border-radius: 0px 15px 16px 0px;
 }
