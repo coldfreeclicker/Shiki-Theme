@@ -199,3 +199,7 @@ body:after {
     border: none;
     border-radius: 8px;
 }
+
+.p-dashboards-show .v2 .headline {
+    pointer-events: none;
+}
