@@ -187,3 +187,7 @@ body:after {
 .b-link_button.dark-2 {
     border-radius: 15px;
 }
+
+.p-dashboards-show .v2 .db-update .tags {
+    height: 60px;
+}
