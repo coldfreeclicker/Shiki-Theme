@@ -181,6 +181,7 @@ body:after {
     margin-right: 70px;
     padding-left: 15px;
     padding-right: 15px;
+    pointer-event: none;
 }
 
 .b-link_button.dark-2 {
