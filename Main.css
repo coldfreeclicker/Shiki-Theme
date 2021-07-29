@@ -423,6 +423,7 @@ textarea {
 .b-add_to_list .expanded-options {
     border-radius: 7px;
     margin-top: 4px;
+    width: 50%;
 }
 
 
