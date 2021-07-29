@@ -1,4 +1,10 @@
 /* AUTO=sticky_menu */ @media screen and (min-width: 1025px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu { max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; } }
+
+.p-dashboards-show .v2 .db-update .tags {
+    height: 120px;
+  	display: -webkit-box;
+}
+
 /* Main 1 */
 @import url(https://raw.githubusercontent.com/coldfreeclicker/Shiki-Theme/main/Main.css);
 /* Main 2*/
